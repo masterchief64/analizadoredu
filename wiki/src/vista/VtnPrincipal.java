@@ -851,4 +851,8 @@ private void cerrar(){
     // End of variables declaration//GEN-END:variables
     private JFileChooser fc=new JFileChooser();
     private String documentoInicial;
+
+
+   
+
 }
