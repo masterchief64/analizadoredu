@@ -41,6 +41,7 @@ public class VtnAyuda extends javax.swing.JDialog {
         jTextArea1.setColumns(20);
         jTextArea1.setEditable(false);
         jTextArea1.setRows(5);
+        jTextArea1.setText("Analizador Léxico\n\nPasos:\n\n1. Ejecutar el archivo Analizador_Lexico.jar\n2. Ingresar el valor a verificar en el campo de texto\n3. El programa mostrará automáticamente el LEXEMA y TOKEN de los datos ingresados\n   con su respectivo color según el lexema ingresado.\n4. El programa brindará la opción de:\n\n\t* Abrir documento     \t\tCtrl + A\n\t* Guardar documento\t\tCtrl + G\n\t* Nuevo documento\t\tCtrl + N\n\t* Imprimir documento\t\tCtrl + P\n\t* Salir del programa\t\tAlt  + F4\n\n5. El programa brinda la opción de:\n\n\t* Vista previa del documento\tCtrl + D\n\n6. El programa tambien brindará las opciones de Formato:\n\n\t* Copiar\t\tCtrl + C\n\t* Pegar\t\t\tCtrl + V\n\t* Cortar\t\tCtrl + X\n\n\nIntegrantes:\n\n\t* Eduardo Lima\n\t* Angel valdez\n\t* Carlos Vivanco\n\nMódulo:\n\n\tNoveno \"B\"  - Sistemas\n\nFecha:\n\n\t30-Noviembre-2010");
         jScrollPane1.setViewportView(jTextArea1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -49,15 +50,14 @@ public class VtnAyuda extends javax.swing.JDialog {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 380, Short.MAX_VALUE)
-                .addContainerGap())
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 621, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(22, 22, 22)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 267, Short.MAX_VALUE)
-                .addContainerGap())
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 343, Short.MAX_VALUE))
         );
 
         pack();
