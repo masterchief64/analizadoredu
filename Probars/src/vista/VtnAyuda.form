@@ -25,17 +25,16 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="jScrollPane1" pref="380" max="32767" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="621" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
-              <Component id="jScrollPane1" pref="267" max="32767" attributes="0"/>
+          <Group type="102" alignment="1" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="343" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -53,6 +52,7 @@
             <Property name="columns" type="int" value="20"/>
             <Property name="editable" type="boolean" value="false"/>
             <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="Analizador L&#xe9;xico&#xa;&#xa;Pasos:&#xa;&#xa;1. Ejecutar el archivo Analizador_Lexico.jar&#xa;2. Ingresar el valor a verificar en el campo de texto&#xa;3. El programa mostrar&#xe1; autom&#xe1;ticamente el LEXEMA y TOKEN de los datos ingresados&#xa;   con su respectivo color seg&#xfa;n el lexema ingresado.&#xa;4. El programa brindar&#xe1; la opci&#xf3;n de:&#xa;&#xa;&#x9;* Abrir documento     &#x9;&#x9;Ctrl + A&#xa;&#x9;* Guardar documento&#x9;&#x9;Ctrl + G&#xa;&#x9;* Nuevo documento&#x9;&#x9;Ctrl + N&#xa;&#x9;* Imprimir documento&#x9;&#x9;Ctrl + P&#xa;&#x9;* Salir del programa&#x9;&#x9;Alt  + F4&#xa;&#xa;5. El programa brinda la opci&#xf3;n de:&#xa;&#xa;&#x9;* Vista previa del documento&#x9;Ctrl + D&#xa;&#xa;6. El programa tambien brindar&#xe1; las opciones de Formato:&#xa;&#xa;&#x9;* Copiar&#x9;&#x9;Ctrl + C&#xa;&#x9;* Pegar&#x9;&#x9;&#x9;Ctrl + V&#xa;&#x9;* Cortar&#x9;&#x9;Ctrl + X&#xa;&#xa;&#xa;Integrantes:&#xa;&#xa;&#x9;* Eduardo Lima&#xa;&#x9;* Angel valdez&#xa;&#x9;* Carlos Vivanco&#xa;&#xa;M&#xf3;dulo:&#xa;&#xa;&#x9;Noveno &quot;B&quot;  - Sistemas&#xa;&#xa;Fecha:&#xa;&#xa;&#x9;30-Noviembre-2010"/>
           </Properties>
         </Component>
       </SubComponents>
